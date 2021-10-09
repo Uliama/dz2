@@ -1,0 +1,93 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 143%;
+    color: #737373;
+    background-color: #FAFAFA;
+}
+
+.container {
+    max-width: 1080px;
+    padding: 0 15px;
+    margin: 0 auto;
+    } 
+
+    /* Header */
+    .header {
+    padding: 40px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+
+    .header_row {
+    display: flex;
+    align-items: center;
+
+    }
+
+    .logo {
+
+    }
+
+    .nav {
+        margin-left: 117px;
+    }
+
+    .nav ul {
+    display: flex;
+    }
+
+    .nav a {
+    padding: 5px 10px;
+    display:inline-block;
+    }
+
+    /* First block */
+    .business {
+    padding: 180px 80px;
+    background: url("../imgs/main-background.jpg") center/cover no-repeat;
+    }
+
+    .business-title {
+    margin: 0 0 35px;
+    }
+
+    .business-text {
+    margin: 0 0 35px;
+    }
+
+    .business-get {
+
+    }
+
+    .business-more {
+
+    }
+
+    .business-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -25px;
+    }
+
+    .business-col {
+        flex: 1 0 33.3333%;
+        max-width: 33.3333%;
+        padding: 0 15px;
+    }
+
+    .item {
+        background: #FFFFFF;
+    }
+ 
+    
